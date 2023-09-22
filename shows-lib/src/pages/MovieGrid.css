@@ -1,0 +1,64 @@
+.container .title {
+    color: antiquewhite;
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+    color: #E26206
+}
+
+.movies-conteinar {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movies-conteinar div {
+    width: 30%;
+    color: antiquewhite;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 1rem;
+}
+
+.movies-conteinar div img {
+    max-width: 100%;
+}
+
+.movies-conteinar div img,
+.movies-conteinar div h3,
+.movies-conteinar div p {
+    margin-bottom: 1rem;
+}
+ 
+
+.movies-conteinar div svg {
+    color: #f2d354
+}
+
+
+.movies-conteinar div a {
+    background-color: #E26D19;
+    border: 2px solid #E26D19;
+    border-radius: 8px;
+    padding: .5rem .5rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    color: #141414;
+    font-weight: 600;
+}
+
+.movies-conteinar div a:hover {
+    background-color: #8E420B;
+    border: 2px solid #8E420B;
+    color: #fff;
+}
